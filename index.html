@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="API data display">
+		<meta name="author" content="Archana">
+		<style>
+			   table {
+ 				 font-family: arial, sans-serif;
+ 				 border-collapse: collapse;
+  				 width: 100%;
+                 display: grid;
+					}
+
+				td, th {
+				border: 1px solid #dddddd;
+				text-align: left;
+				padding: 8px;
+					}
+
+				tr:nth-child(even) {
+				background-color: #dddddd;
+					}
+				.noborder {
+					border-collapse: collapse;
+					}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="divResults">
+			
+			<table>
+				<tr>
+					<td align="right">
+						The Star Wars API
+					</td>
+					<td>
+						<select id="select" name="select">
+							<option value="starships">starships</option>
+							<option value="films">films</option>
+						</select>
+					</td>
+					<td><button id="btnRun">Submit</button></td>
+
+				</tr>
+
+
+
+			</table>
+          <table id="table">
+
+          </table>
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+	</body>
+
+</html>
